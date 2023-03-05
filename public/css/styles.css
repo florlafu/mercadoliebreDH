@@ -1,0 +1,470 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+
+header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #EAC926;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+
+.smartphone-top-bar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-main {
+    width: 50%;
+    padding: 4% 2% 4% 4%;
+}
+
+.search-bar {
+    color: rgba(128, 128, 128, 0.9);
+    background-color: white;
+    width: 50%;
+    border-radius: 5px;
+    padding: 8px;
+    white-space: nowrap;
+    margin-left: 5px;
+    max-width: 280px;
+}
+
+.search-icon {
+    background-color: white;
+    color: rgba(128, 128, 128, 0.9);
+    border: solid 1px white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 90%;
+    width: 13px;
+    padding: 6px 14px 6px 2px;
+    position: absolute;
+    z-index: 2;
+}
+
+.hand-holding-usd {
+    text-align: center;
+    font-weight: 400;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar-login {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-bar-sections-login {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.nav-bar-sections {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site {
+    color: #222222;
+    text-decoration: none;
+    padding: 0;
+    display: none;
+}
+
+.burger-menu {
+    width: 35px;
+    height: 33px;
+    background-color: #1259c3;;
+    font-size: 18px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top: 22px;
+}
+
+.home-banner {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -4px;
+}
+
+
+main {
+    margin: auto;
+    width: 90%;
+}
+
+
+/*/FORM-START/*/
+.create-form {
+    padding: 20px 15px;
+}
+
+.control-formulario {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.control-formulario label {
+    margin-bottom: 10px;
+    font-style: italic;
+    display: block;
+}
+
+.control {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.control-login {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-top: 1em;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.button-form-send-register {
+    background-color: #1259c3;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+
+.button-form-send-register:hover {
+    background-color: #0022AA;
+}
+
+.button-form-send-login {
+    background-color: #1259c3;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 12px 10px;
+    border-radius: 5px;
+    width: 75%;
+    font-size: 16px;
+    margin-left: 12.5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.button-form-send-login:hover {
+    background-color: #0022AA;
+}
+
+.button-form-delete-register {
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.button-form-delete-register:hover {
+    background-color: rgb(199, 2, 2);
+}
+
+.control-formulario div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.user-profile-style {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.interest-categories {
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+/*/FORM-END/*/
+
+section {
+    position: relative;
+}
+
+
+.title-section {
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 7%;
+    margin-bottom: 1em;
+}
+
+.products {
+    margin-bottom: 10px;
+}
+
+.product-detail {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 82.6px;
+}
+
+.photo-product {
+    width: 100%;
+    margin: auto;
+    margin-bottom: -4px;
+}
+
+.logo-shipping {
+    display: block;
+    left: 88%;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    margin-left: 88%;
+    transition: all 500ms;
+}
+
+.price {
+    font-size: 18px;
+    width: 30%;
+    margin-left: 0;
+}
+
+.discounts {
+    color: #39b54a;
+    opacity: 0.8;
+    font-size: 16px;
+    margin-left: 3%;
+    width: 70%;
+}
+
+.price-discounts {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.descriptions {
+    font-size: 16px;
+    margin-top: 20px;
+    display: none;
+}
+
+.product-detail:hover .descriptions {
+    display: block;
+}
+
+footer {
+    
+    text-align: center;
+    
+}
+
+
+.footer-icons {
+    color: #1259c3;
+    font-size: 2em;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.footer-subtitle {
+    margin-top: -10px;
+}
+
+.footer-text {
+    margin-top: 2px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.copyright-section {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 12px;
+}
+
+.footer-login {
+    display: flex;
+    flex-direction: wrap;
+    background-color: white;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+
+
+.footer-icons-login {
+    color: #1259c3;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 10px;
+    padding: 15px 30px 15px 30px;
+}
+
+
+
+/*/Tablets/*/
+@media (min-width: 769px) {
+
+    .header-top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        margin: auto;
+        max-width: 800px;
+    }
+
+    .logo-main {
+        width: 58%;
+        padding: 4% 2% 4% 4%; /*Padding bottom 5px*/
+        margin-left: -8%;
+        margin-top: -5px;
+        min-width: 248.81px;
+    }
+
+    .search-bar {
+        color: rgba(128, 128, 128, 0.9);
+        background-color: white;
+        border: solid 1px grey;
+        width: 150px;
+        border-radius: 0px;
+        padding: 0;
+        padding-right: 100px;
+        white-space: nowrap;
+        margin-left: -15px;
+        min-width: 150px;
+        
+    }
+    
+    .search-icon {
+        background-color: #ebebeb;
+        color: black;
+        margin-left: -22px;
+        width: 16px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: grey;
+        padding: 0 0 0 1px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        position: static;
+        z-index: none;
+    }
+    
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .nav-bar-sections {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-bar li {
+    padding: 0 10px;
+}
+
+    .product-division {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+ 
+    .products {
+
+        width: 45%;  
+    }
+
+    .products:hover {
+        box-shadow: 0 0 10px rgb(100, 100, 100);
+    } 
+
+    .product-detail:hover .logo-shipping { 
+        transform: rotate(-90deg);
+    }
+
+    .site {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .footer-login {
+        display: flex;
+        flex-direction: column;      
+    
+        }
+}
+
+
+/*/Desktop/*/
+@media (min-width: 1200px) {
+    .nav-bar {
+        max-width: 1200px;
+    }
+
+    .hand-holding-usd {
+        font-size: 12px;
+    }
+
+    .products {
+        width: 20%;
+    }
+
+    .discounts {
+        margin-left: 30px;
+    }
+}
